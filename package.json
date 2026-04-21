@@ -1,0 +1,33 @@
+{
+  "name": "chroma-chunker-mcp",
+  "version": "1.0.0",
+  "description": "MCP tool for chunking and vectorizing markdown documents and adding them to a Chroma database",
+  "main": "src/chunker.js",
+  "bin": {
+    "chroma-chunker-mcp": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "mcp",
+    "chroma",
+    "langchain",
+    "markdown",
+    "vector",
+    "embedding"
+  ],
+  "author": "Sisyphus AI Agent",
+  "license": "MIT",
+  "dependencies": {
+    "langchain": "^0.1.0",
+    "chromadb": "^1.8.1",
+    "openai": "^4.20.0",
+    "@langchain/openai": "^0.0.14",
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "chroma": {
+    "host": "localhost",
+    "port": 8000,
+    "tenant": "default_tenant",
+    "database": "default_database"
+  },
+  "openai": {
+    "baseUrl": "https://api.openai.com/v1",
+    "apiKey": "your-api-key-here",
+    "embeddingModel": "text-embedding-ada-002"
+  },
+  "document": {
+    "path": "./tests/sample.md",
+    "collectionName": "sample_documents"
+  }
+}
